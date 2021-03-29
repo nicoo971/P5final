@@ -1,0 +1,16 @@
+section#containner,#containnerpanier {display:flex;
+    
+    font-variant: all-small-caps;
+}
+.card-body{
+ align-items: center;
+}
+.card-img-top {
+    height: 200px;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+    border-bottom-width: thick;
+}

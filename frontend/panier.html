@@ -1,0 +1,55 @@
+<html>
+
+<head>
+    <link href="style.css" rel="stylesheet" media="all" type="text/css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<header>
+
+</header>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="./index.html">Orinoco</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="./index.html">Produits <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./panier.html">Panier</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <main id="containner">
+    <section id="containnerpanier">
+    </section>
+    
+    <h2>Total du Panier:<span id="prixtotal"></span></h2>
+    <section id="clientinfos">
+      <div class='envoidelacommande'> <form onsubmit="envoidelacommande(event)"></div>
+          <div class="label">  <label for="name"> Name</label>
+            <input type="text" name="name" id="name" placeholder="Name" required>
+            <label for="email"> E-mail</label>
+            <input type="email" name="email" id="email" placeholder="your@email.com" required>
+            <label for="name"> Adresse</label>
+            <input type="text" name="name" id="name" placeholder="adresse" required>
+            <label for="name"> City</label>
+            <input type="text" name="City" id="City" placeholder="City" required>
+            <input type="submit"  value="Envoyer la commande">
+            
+        </div>
+        </form>
+    </section> 
+  </main> 
+    <script type="text/javascript" src="helper.js">
+    </script>
+    <script type="text/javascript" src="panier.js">
+    </script>
+</body>
+
+</html>
